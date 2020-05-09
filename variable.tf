@@ -14,6 +14,3 @@ variable "tags" {
 
 variable "region" {}
 variable "region_name" {}
-variable "az1" {}
-variable "az2" {}
-variable "az3" {}
