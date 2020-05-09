@@ -13,4 +13,3 @@ variable "tags" {
 }
 
 variable "region" {}
-variable "region_name" {}
