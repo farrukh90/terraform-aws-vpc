@@ -1,5 +1,7 @@
 # terraform-aws-vpc
 Please provide below requirements 
+##  For terraform > 0.12  please use version 5.0.0 and above
+##  For terraform > 0.11  please use version 4.0.0 and below
 
 ```
 module "vpc" {

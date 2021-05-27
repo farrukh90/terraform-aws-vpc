@@ -9,7 +9,7 @@ variable "private_cidr2" {}
 variable "private_cidr3" {}
 
 variable "tags" {
-  type = "map"
+  type = map(string)
 }
 
 variable "region" {}
