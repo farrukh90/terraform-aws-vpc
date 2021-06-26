@@ -10,14 +10,6 @@ output "public_subnets" {
   ]
 }
 
-output "private_subnets" {
-  value = [
-    aws_subnet.private1.id,
-    aws_subnet.private2.id,
-    aws_subnet.private3.id,
-  ]
-}
-
 output "region" {
   value = var.region
 }
