@@ -8,6 +8,6 @@ node {
         sh "docker run  --rm 713287746880.dkr.ecr.us-east-1.amazonaws.com/tools:latest terraform init"
     }
        stage("Terraform") {
-        sh "docker run  --rm 713287746880.dkr.ecr.us-east-1.amazonaws.com/tools:latest terraform apply -auto-apply"
+        sh "docker run  --rm 713287746880.dkr.ecr.us-east-1.amazonaws.com/tools:latest terraform apply -auto-approve"
     }
 }
