@@ -15,6 +15,11 @@ node {
             sh "terraform init"
         }
     }
+    withDockerContainer(image: '${AWS_ACCOUNT}.dkr.ecr.us-east-1.amazonaws.com/tools:latest'){
+        stage("Apply") {
+            sh "terraform apply -auto-approve"
+        }
+    }
 }
 
 
