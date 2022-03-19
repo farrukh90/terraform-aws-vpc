@@ -27,6 +27,9 @@ node {
             sh "terraform apply -auto-approve"
         }
     }
+    withDockerContainer(image: 'python:3.8'){
+        sh "python --version"
+    }
     stage("Email notification") {
         sh "echo hello"
     }
