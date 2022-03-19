@@ -11,7 +11,7 @@ node {
         }
     }
     withDockerContainer(image: '${AWS_ACCOUNT}.dkr.ecr.us-east-1.amazonaws.com/tools:latest'){
-        stage("Clone") {
+        stage("Initialize") {
             sh "terraform init"
         }
     }
