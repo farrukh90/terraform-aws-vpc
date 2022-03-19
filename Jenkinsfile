@@ -20,6 +20,9 @@ node {
             sh "terraform apply -auto-approve"
         }
     }
+    stage("Email notification") {
+        sh "echo hello"
+    }
 }
 
 
