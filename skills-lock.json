@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "sprint-planning": {
+      "source": "anthropics/knowledge-work-plugins",
+      "sourceType": "github",
+      "skillPath": "product-management/skills/sprint-planning/SKILL.md",
+      "computedHash": "4d3f8d62578b28706bb8c0575d5ed232095e85c14f9bb1ce8d352ab3b930d176"
+    }
+  }
+}
