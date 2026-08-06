@@ -24,5 +24,5 @@ output "AZ" {
 }
 
 output all {
-  aws_vpc.main
+  value = aws_vpc.main
 }
