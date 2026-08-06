@@ -22,3 +22,7 @@ output "Tags" {
 output "AZ" {
   value = data.aws_availability_zones.available.names
 }
+
+output all {
+  aws_vpc.main
+}
